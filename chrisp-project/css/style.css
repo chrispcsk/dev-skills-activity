@@ -1,0 +1,92 @@
+body {
+    color:#FFFFFF;
+    font-family: 'Oxygen', sans-serif;
+    font-size:16px;
+    font-weight:400;
+    padding:2%;
+    }
+
+h1 {
+    margin:0;
+    font-size:2em;
+    font-weight:400;
+}
+
+h2 {
+    color:#cadeff;
+    font-size:1em;
+    font-weight:400;
+    text-transform:uppercase;
+
+}
+
+p {
+    text-align:left;
+    line-height:2em;
+}
+
+.wrap {
+    width:98%;
+    padding:2%;
+    background-color:#2b4c85;
+    text-align:center;
+    position:relative;
+}
+
+.imgdiv {
+}
+
+.phone-img {
+    width:98%;
+}
+
+.home-icon-img {
+    position:absolute;
+    top:30%;
+    left:-7%;
+}
+
+.close, .learn-more {
+    text-align:right;
+}
+
+.see-widget {
+    display:none;
+}
+
+a, a:hover, a:active {
+    text-decoration:none;
+    color:#CCC;
+}
+
+.learn-more a {
+    color:#f8f65f;
+}
+
+/* SMARTH PHONE SIZING */
+@media screen and (min-width: 320px) and (max-width: 568px) {
+    
+    h1 {
+        padding-bottom:1em;
+    }
+}
+
+ /* TABLET+ SIZING */
+@media screen and (min-width: 568px) and (max-width: 2560px) {
+
+    .wrap {
+        text-align:left;
+    }
+
+    .imgdiv {
+        width:48%;
+        padding:1%;
+        float:left;
+    }
+
+    .top, .bottom {
+        width:48%;
+        padding:1%;
+        float:right;
+    }
+}
